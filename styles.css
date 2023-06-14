@@ -17,12 +17,11 @@ body{
 
 .card {
     border-radius:8px;
-    letter-spacing:0em;
     background-color:hsl(216, 50%, 16%);
     display:flex;
     justify-content:center;
     flex-direction:column;
-    padding:1rem 1rem;
+    padding:1rem;
     margin:3em 1.5em;
     gap:1em;
 }
@@ -35,8 +34,6 @@ body{
     color: hsl(0, 0%, 100%);
     font-size:1.25rem;
     font-weight:bold;
-    letter-spacing:0em;
-    display:flex;
 }
 
 .parrafo {
@@ -63,7 +60,7 @@ body{
 .marco {
     border:1px solid #FFF;
     width:1.5rem;
-    border-radius:2rem;
+    border-radius:100%;
     margin:-3px 15px 5px 0;
 }
 
@@ -97,5 +94,12 @@ body{
 }
 
 .attribution {
-    display:none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    background-color:hsl(217, 54%, 11%, 75%);
+    padding: 0.75em 1em;
 }
