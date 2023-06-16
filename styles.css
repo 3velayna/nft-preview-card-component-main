@@ -103,3 +103,39 @@ body{
     background-color:hsl(217, 54%, 11%, 75%);
     padding: 0.75em 1em;
 }
+
+.bold {
+    font-weight:700;
+}
+
+.hoverable:hover {
+    color:hsl(178, 100%, 50%, .75);
+}
+
+@media (min-width: 700px) and (max-width:1230px) {
+    body{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    main{
+        max-width: 38vw;
+        height: 20vw 20vw;
+
+    }
+}
+
+@media (min-width:1231px) {
+    body{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    main{
+        max-width: 22vw;
+        height: 20vw 20vw;
+
+    }
+}
