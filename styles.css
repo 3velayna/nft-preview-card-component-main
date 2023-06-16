@@ -26,7 +26,30 @@ body{
     gap:1em;
 }
 
+.img-container {
+    position: relative;
+}
+
+#eye-img {
+    position:absolute;
+    inset:0;
+    background-color:hsl(178, 100%, 50%, .5);
+    display:none;
+    justify-content:center;
+    align-items:center;
+    aspect-ratio:1;
+}
+
+.img-container:hover #eye-img {
+    display:flex;
+}
+
 .imag {
+    max-width:100%;
+    aspect-ratio:1;
+}
+
+.imag, #eye-img {
     border-radius:8px;
 }
 
@@ -37,13 +60,13 @@ body{
 }
 
 .parrafo {
-    color:hsl(215, 51%, 70%, .60);
+    color:hsla(215, 51%, 70%, .60);
     font-size:.875rem;
 }
 
 .cyan {
     font-weight:bold;
-    color:hsl(178, 100%, 50%, .75);
+    color:hsla(178, 100%, 50%, .75);
     font-size:0.875rem;
 }
 
